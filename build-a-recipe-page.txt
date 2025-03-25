@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheesecake dip</title>
+  </head>
+<body>
+    <main>
+      <h1>Cheesecake Dip</h1>
+      <p>I don't like to cook or bake, but I love sweets. So this recipe is for all my lazy sweets lovers out there. An easy cheesecake dip. You can eat it with graham crackers, cookies, or even strawberries. Or you can eat it by the spoon like I do.</p>
+      <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A picture of ingredients."></a>
+      <section>
+        <h2>Ingredients</h2>
+          <ul>
+           <li>1 bar of creamcheese room temp</li>
+           <li>1 cup heavy cream</li>
+           <li>1 teaspoon vanilla</li>
+           <li>1 cup powdered sugar</li>
+          </ul>
+        
+      </section>
+      <section>
+        <h2>Instructions</h2>
+        <ol>
+          <li>In  a large bowl, mix together the cream cheese and powdered sugar</li>
+          <li>Mix in the vanilla</li>
+          <li>Slowly mix in the heavy cream a little at a  time</li>
+          <li>Scoop the bowl</li>
+          <li>Mix until a heavy peak</li>
+          <li>And enjoy!</li>
+        </ol>
+        
+    </footer>
+  </body>
+</html>
