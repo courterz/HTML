@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+      <h1>Python for beginners</h1>
+         <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since its relatively easy to learn, Python has been adopted by many non-programmers, such as accountants and scientists, for a variety of everyday tasks, like organizing finances.</p>
+      <section>
+         <h2>Data analysis</h2>
+        <p>Python can build a wide range of different data visualizations, like line and bar graphs, pie charts, histograms, and 3D plots. Python also has a number of libraries that enable coders to write programs for data analysis and machine learning more quickly and efficiently, like TensorFlow and Keras.</p>
+         <iframe width="560" height="315" src="https://youtu.be/eWRfhZUzrAc?si=O392QKHPVzGgYUcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+      <section>
+         <h2>Web development</h2>
+        <p>Python is often used to develop the back end of a website or application—the parts that a user doesn’t see. Python’s role in web development can include sending data to and from servers, processing data and communicating with databases, URL routing, and ensuring security. Python offers several frameworks for web development. Commonly used ones include Django and Flask.</p>
+         <iframe width="560" height="315" src="https://youtu.be/eWRfhZUzrAc?si=O392QKHPVzGgYUcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+      <section>
+         <h2>Automation</h2>
+        <p>Python can even be used by relative beginners to automate simple computer tasks—such as renaming files, finding and downloading online content, or sending emails or texts at desired intervals.</p>
+        <iframe width="560" height="315" src="https://youtu.be/eWRfhZUzrAc?si=O392QKHPVzGgYUcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+
+
+</body>
+
+</html>
