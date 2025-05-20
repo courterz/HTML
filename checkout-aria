@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+<section><h2>Your Cart</h2><img src="https://cdn.freecodecamp.org/curriculum/labs/spoon.jpg" alt="Left-handed spoon"></section>
+<section><h2>Payment Information</h2>
+<form method="POST" action="https://hotel-feedback.freecodecamp.org">
+<label for="card-name">Cardholder Name</label>
+   
+          <input
+            placeholder="Name"
+            required
+            id="card-name"
+            name="card-name"
+            size="20"
+            aria-required="true"
+          />
+          <label for="card-number">Cardholder Number</label>
+          <input
+            placeholder="0000-0000-0000-0000"
+            required
+            id="card-number"
+            name="card-number"
+            size="20"
+            aria-required="true"
+          />
+</section>
+</body>
+
+</html>
