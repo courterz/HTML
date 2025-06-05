@@ -1,0 +1,116 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div class="to-do">
+        <h1>My To-Do List</h1>
+        <ul class="todo-list">
+
+            <li>
+                <input id="task1" type="checkbox">
+                <label for="task1">Finish SRA</label>
+        <ul class="sub-item">
+            <li><a class="sub-item-link" href="#"                target="_blank">Calculate cvss scores</a></li></ul></li>
+
+            <li>
+            <input id="task2" type="checkbox">
+            <label for="task2">Finish MDS2</label>
+        <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="#" target="_blank">put in notes</a></li></ul></li>
+
+            <li>
+                <input id="task3" type="checkbox">
+                <label for="task3">Finish training</label>
+        <ul class="sub-item">
+                    <li><a class="sub-item-link" href="#" target="_blank">take quiz</a></li></ul></li>
+
+            <li>
+                <input id="task4" type="checkbox">
+                <label for="task4">Finish freecodecamp lab</label>
+        <ul class="sub-item">
+                    <li><a class="sub-item-link" href="#" target="_blank">link stylehseet</a></li></ul></li>
+    </ul>
+           
+</div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  padding: 10px;
+  background-color: #e5f1e5;
+  border-radius: 10px;
+  position: relative;
+}
+
+a.sub-item-link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.sub-item-link:link {
+  color: blue;
+}
+
+.sub-item-link:visited {
+  color: purple;
+}
+
+.sub-item-link:hover {
+  color: red;
+}
+
+.sub-item-link:focus {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+.sub-item-link:active {
+  color: green;
+}
+
+.sub-item {
+  list-style-type: square;
+}
+
+** end of styles.css **
+
