@@ -1,0 +1,84 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="blog-post-card">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="a picture" class="post-img">
+
+<div class="post-content">
+    <h2 class="post-title">Best Certificates for an entry level cyber security engineer</h2>
+    <p class="post-excerpt">This post will give you insight into the best certificats for an entry level security role</p>
+    <a class="read-more">Read More</a>
+    </div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.blog-post-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.post-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #333;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-title {
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.post-excerpt {
+    color: #667;
+    margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #555;
+}
+
+
+** end of styles.css **
+
