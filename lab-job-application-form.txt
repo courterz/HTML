@@ -1,0 +1,149 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+      <h1>Job Application Form</h1>
+    <div class="container">
+       <form>
+           <label for="name">Full Name:</label>
+           <input type="text" id="name" placeholder="Enter your name" required/>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required/>
+        
+          <select id="position" required>
+           <option value="" disabled selected>Select a position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Manager</option>
+            </select>
+
+          <fieldset class="radio-group">
+        <legend>Availaibility</legend>
+           <input type="radio" id="full-time" name="availability" value="full-time" required>
+                <label for="full-time">Full-Time</label>
+                <input type="radio" id="part-time" name="availability" value="part-time">
+                <label for="part-time">Part-Time</label>
+                </fieldset>
+
+                <section><p>Why do you want this job?</p></section>
+           <textarea id="message" placeholder="Enter your message here" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+  </body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.radio-group input[type="radio"]:checked {
+  border: 2px solid #007BFF;
+  background-color: #e0f0ff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.radio-group input[type="radio"]:checked + label {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+
+.radio-group label {
+  margin-right: 15px;
+}
+
+input:nth-child(2) {
+  border: 1px solid transparent;
+}
+
+input:first-of-type
+{
+  
+  background-color: #eef7ff;
+}
+
+** end of styles.css **
+
