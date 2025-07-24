@@ -1,0 +1,62 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+<main id="email">
+  <div id="confidential" text="CONFIDENTIAL">CONFIDENTIAL</div>
+  <div id="top-secret" name="TOP SECRET">TOP SECRET</div>
+  <p><span class="blurred">Hi</span>this is for your eyes only</p>
+  <p><span class="blurred">Hi</span>contact "red pooch" immediately</p>
+  <p><span class="blurred">Hi</span>time depends on it</p>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  box-sizing: border-box;
+  background-color: #998686;
+}
+
+#confidential {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 5px;
+  border: 2px solid;
+  background-color: hsl(217, 73%, 84%);
+  transform: rotate(-20deg);
+}
+
+#top-secret {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 5px;
+  border: 2px solid;
+  background-color: #855162;
+  transform: rotate(20deg);
+}
+
+.blurred {
+  filter: blur(3px);
+}
+
+** end of styles.css **
+
