@@ -1,0 +1,113 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+<main id="playing-cards">
+  <div class="card">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+  <div class="card">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+  <div class="card">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#playing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background-color: fdb4a7;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px; 
+}
+
+.left {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #fdb347;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.middle {
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #fdb347;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.right {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: #fdb347;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+** end of styles.css **
+
