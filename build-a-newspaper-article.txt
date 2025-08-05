@@ -1,0 +1,79 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+     <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+ <div class="newspaper">
+<div class="name">Daily Wisdom</div>
+<div class="date">December 1st, 2500</div>
+<div class="headline">If You Can't be Kind, At Least be Vague</div>
+<div class="sub-headline">There are instances in life where you can't always be nice</div>
+<div class="author">Whoopise Daisy</div>
+<p class="text">Maybe a yes/no answer is appropriate if you can't say anything nice. No need to elaborate, just end the conversation swiftly.</p>
+<p class="text">And while you're at it, try and show some teeth in your smile.</p>
+<p></p>
+   </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+html {
+  font-size: 24px;
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: "Times New Roman", serif;
+  text-transform: uppercase;
+}
+
+.author {
+  text-transform: uppercase;
+   font-weight: bold;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.headline {
+  font-size: 2em;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.sub-headline {
+  font-weight: 100;
+  font-family: "Times New Roman", serif;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+
+.text {
+  font-weight: 100;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+** end of styles.css **
+
