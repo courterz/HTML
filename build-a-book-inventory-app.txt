@@ -1,0 +1,252 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Book Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<main>
+  <h1>Book Inventory</h1>
+  <div class="table container">
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Category</th>
+          <th>Status</th>
+          <th>Rate</th>
+          </tr>
+          </thead>
+
+  <tbody>
+    <tr class="read">
+      <td>3 musketeers</td>
+      <td>alexander</td>
+      <td>history</td>
+      <td>
+        <span class="status">Read</span>
+        </td>
+        <td>
+          <span class="rate three">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            </td>
+            </tr>
+
+        <tr class="to-read">
+          <td>plagued</td>
+          <td>something</td>
+          <td>whatever</td>
+          <td>
+            <span class="status">To Read</span>
+          </td>
+          <td>
+             <span class="rate">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+          </td>
+          </tr>
+
+          <tr class="read">
+          <td>metamorph</td>
+          <td>franz f</td>
+          <td>novel</td>
+          <td>
+            <span class="status">Read</span>
+          </td>
+          <td>
+             <span class="rate one">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+          </td>
+          </tr>
+
+          <tr class="read">
+          <td>souls</td>
+          <td>sir nicholas</td>
+          <td>pictar</td>
+          <td>
+            <span class="status">Read</span>
+          </td>
+
+          <td>
+             <span class="rate two">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+          </td>
+          </tr>
+
+          <tr class="in-progress">
+          <td>flies something</td>
+          <td>frankfrank</td>
+          <td>fiction</td>
+          <td>
+            <span class="status">In Progress</span>
+          </td>
+
+          <td>
+             <span class="rate">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+          </td>
+          </tr>
+
+          </tbody>
+          </tabl>
+          </div>
+          </main>
+          </body>
+          </html>
+
+
+          
+
+** end of index.html **
+
+** start of styles.css **
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100vw;
+}
+
+thead {
+  background-image: linear-gradient(hsl(197, 92%, 77%, 0.60), hsl(197, 92%, 50%, 0.60));
+}
+
+th {
+  padding: 0.4em;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(hsl(120, 100%, 85%, 0.6), hsl(120, 100%, 65%, 0.6));
+}
+
+td {
+  text-align: center;
+  padding: 0.3em;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 0.1em solid hsl(120, 75%, 45%);
+  border-top-width: 0.1em;
+border-top-style: solid;
+border-top-color: rgb(29, 201, 29);
+border-right-width: 0.1em;
+border-right-style: solid;
+border-right-color: rgb(29, 201, 29);
+border-bottom-width: 0.1em;
+border-bottom-style: solid;
+border-bottom-color: rgb(29, 201, 29);
+border-left-width: 0.1em;
+border-left-style: solid;
+border-left-color: rgb(29, 201, 29);
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+  background-image: linear-gradient(hsl(120, 75%, 75%), hsl(120, 75%, 50%));
+}
+
+span[class="status"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+  padding-top: 0.3em;
+padding-right: 0.3em;
+padding-bottom: 0.3em;
+padding-left: 0.3em;
+}
+
+span[class^="rate"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+}
+
+span[class="status"] {
+  border-radius: 20%/60%;
+}
+
+span {
+  display: inline-block;
+}
+
+span[class^="rate"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+}
+
+span[class~="three"] span {
+  background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+span[class^="rate"] > span {
+  border: 0.1em solid hsl(0, 0%, 50%);
+  border-radius: 50%;
+  background-color: hsl(0, 15%, 95%);
+  height: 100%;
+  width: 20%;
+  margin: 0.1em;
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(hsl(120, 20%, 95%, 0.6), hsl(120, 20%, 75%, 0.6));
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 0.1em solid hsl(5, 100%, 45%);
+  background-image: linear-gradient(hsl(5, 100%, 75%), hsl(5, 100%, 50%));
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(hsl(40, 100%, 85%, 0.60), hsl(40, 100%, 65%, 0.6));
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 0.1em solid hsl(40, 90%, 40%);
+  background-image: linear-gradient(hsl(40, 90%, 75%), hsl(40, 90%, 50%));
+}
+
+span[class~="one"] :first-child {
+  background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+span[class~="two"] :nth-child(1), span[class~="two"] :nth-child(2) {
+  background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+** end of styles.css **
+
